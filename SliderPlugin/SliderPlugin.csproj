@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <AssemblyName>SliderWatch</AssemblyName>
+        <Product>SliderWatch</Product>
+        <Version>1.2.0</Version>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        <RestoreAdditionalProjectSources>
+            https://api.nuget.org/v3/index.json;
+            https://nuget.bepinex.dev/v3/index.json;
+            https://nuget.samboy.dev/v3/index.json
+        </RestoreAdditionalProjectSources>
+        <RootNamespace>SliderPlugin</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile"/>
+        <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="UnityEngine">
+            <HintPath>lib\UnityEngine.dll</HintPath>
+        </Reference>
+
+        <Reference Include="UnityEngine.UI">
+            <HintPath>lib\UnityEngine.UI.dll</HintPath>
+        </Reference>
+
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+
+        <Reference Include="Il2CppSystem">
+            <HintPath>lib\Il2CppSystem.dll</HintPath>
+        </Reference>
+
+        <Reference Include="Il2CppSystem.Core">
+            <HintPath>lib\Il2CppSystem.Core.dll</HintPath>
+        </Reference>
+
+        <Reference Include="Il2Cppmscorlib.Core">
+            <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+
+    </ItemGroup>
+</Project>
