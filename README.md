@@ -2,6 +2,11 @@
 
 此插件调整了真菜香的基础身体能力阈值, 现在的她简直是一个超人
 
+## 预览
+
+![](images/001.png)
+![](images/002.png)
+
 ## 安装
 
 1. 安装 [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP版本 (从以下选择安装, 版本要求6.x)
