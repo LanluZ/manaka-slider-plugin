@@ -13,9 +13,14 @@
     - [BepInEx Bleeding Edge (BE) 构建](https://builds.bepinex.dev/projects/bepinex_be)
     - [BepInEx Release 构建](https://github.com/BepInEx/BepInEx/releases)
 2. 安装后运行游戏等待 BepInEx 初始化目录后关闭游戏
-3. 下载 [Release]()
+3. 下载 [Release](https://github.com/LanluZ/manaka-slider-plugin/releases)
 4. 解压插件放在目录`/BepInEx/plugins`
 5. 运行游戏
+
+备注: 如果你不喜欢BepInEx的小黑框终端按照以下操作隐藏
+
+1. 打开`/BepInEx/config.cfg`
+2. 搜索 `Logging.Console` 将 `Enabled` 中的 `true` 改写为 `False`
 
 ## 配置
 
