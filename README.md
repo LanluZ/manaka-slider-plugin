@@ -9,7 +9,7 @@
 
 ## 安装
 
-1. 安装 [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP版本 (从以下选择安装, 版本要求6.x)
+1. 安装 [BepInEx](https://github.com/BepInEx/BepInEx) **IL2CPP**版本 (从以下选择安装, 版本要求**6.x IL2CPP**)
     - [BepInEx Bleeding Edge (BE) 构建](https://builds.bepinex.dev/projects/bepinex_be)
     - [BepInEx Release 构建](https://github.com/BepInEx/BepInEx/releases)
 2. 安装后运行游戏等待 BepInEx 初始化目录后关闭游戏
